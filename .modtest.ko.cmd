@@ -1,0 +1,1 @@
+cmd_/home/shunto/hacker/rootkit_study/modtest.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-4.6.0-kali1-common/scripts/module-common.lds --build-id  -o /home/shunto/hacker/rootkit_study/modtest.ko /home/shunto/hacker/rootkit_study/modtest.o /home/shunto/hacker/rootkit_study/modtest.mod.o

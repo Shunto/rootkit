@@ -1,7 +1,6 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-
 static char* teststr = "test";
 module_param( teststr, charp, S_IRUGO );
 MODULE_PARM_DESC( teststr, "test parm");
